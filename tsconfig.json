@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/reducers/cycles/reducer.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
